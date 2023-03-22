@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+*_abs - function that checks for absolute values
+*
+*@a: parameters to be checked
+*
+*Return: always a
+*/
+
+int _abs(int)
+{
+if (a < 0)
+a = -(a);
+else if (a >= 0)
+a = a;
+return (a);
+}
